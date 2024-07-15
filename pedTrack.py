@@ -451,12 +451,9 @@ class PedTrackWin:
            #    return True
       return False
 
-# data_image_path = './train_boxes_numbered/0002',data_image_path = './rnn/train02_trained_weights_5epochs'
-#PedTrackWin(data_image_path ='./train/STEP-ICCV21-02' )
+
 if __name__ == '__main__':
-   #PedTrackWin()
-   #PedTrackWin(data_image_path = './A_test01/Image', box_path = 'A_test01.txt')
-   PedTrackWin(data_image_path = './A_test01/ImageSTEP07', box_path = './A_test01/test07.txt')
-   #PedTrackWin(data_image_path = './m_test/Track_07', box_path = './m_test/test_07.txt')
-   
-#,box_path = './rnn/train_02.txt'
+
+   PedTrackWin(data_image_path = '../train_boxes_numbered/0002', box_path = './box.txt')
+
+
